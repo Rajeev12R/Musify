@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.left{
+    width: 25vw;
+    padding: 10px;
+
+}
+.right{
+    width: 75vw;
+    margin: 14px 0px;
+}
+.home{
+    padding: 10px;
+}
+
+.home ul li{
+    width: 15px;
+    list-style-type: none;
+    gap: 15px;
+    padding: 14px;
+    color: rgb(0, 0, 0);
+
+}
+.library ul li{
+    width: 15px;
+    list-style-type: none;
+    gap: 15px;
+    padding: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.round{
+    border-radius: 6px;
+}
+.heading{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    gap: 15px;
+    color: rgb(0, 0, 0);
+    padding: 23px 14px;
+    align-items: center;
+    
+}
+.heading img{
+    width: 30px; 
+}
+.lib-text{
+
+    font-size: 18px;
+}
+
+.footer{
+    display: flex;
+    font-size: 10px;
+    gap: 10px;
+    position: absolute;
+    /* bottom: -22px; */
+    bottom: 0;
+}
+.footer a{
+    color: grey;
+    text-decoration: none;
+    
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(22, 22, 22, 1)
+}
+.header > *{
+    padding: 20px;
+}
+.nav-btn{
+    background-color: #141313;
+    border-radius: 100%;
+   padding: 10px;
+}
+.playlist{
+    padding: 16px;
+}
+.card{
+    max-width: 200px;
+}
+.card img{
+    max-width: 200px;
+}
